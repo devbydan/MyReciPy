@@ -1,6 +1,8 @@
 # MyReciPy
 
+```
 ![homepage](/assets/homepage.jpeg?raw=true "ReciPy Homepage")
+```
 
 A recipe-based search engine that provides convenience to use your ingredients available, discover new recipe variations, and filter for preferences with ease.
 
@@ -9,11 +11,11 @@ As college students, eating healthy foods can seem like a chore given high-stres
 
 ## Repo Structure
 - `assets/`: contains crawler architecture, sample output and performance metrics
-
 - `crawlers/`: contains all python crawlers separated by source
-
 - `data/`: contains scraped data from each traversed source
-
+- `indexer/`: contains all indexing related information such as:
+    - JSON file containing all recipes scraped
+    - indexing class file
 - `scripts/`: contains all executable scripts for ease of use and access
     - `crawl.sh`: executable script that runs all crawlers in paArallel given necessary parameters
     - `help.sh`: help with flags that can be used
@@ -21,9 +23,6 @@ As college students, eating healthy foods can seem like a chore given high-stres
 - `tools/`: contains scripts for schema validation
     - `aggregator.py`: combines all recipes into a singular JSON file
     - `validator.py`: validates parent global schema against specified current schema
-- `indexer/`: contains all indexing related information such as:
-    - JSON file containing all recipes scraped
-    - indexing class file
 
 ## Technology Used
 - **Frontend:** HTML, CSS, JavaScript
