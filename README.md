@@ -5,6 +5,8 @@ A recipe-based search engine that provides convenience to use your ingredients a
 As college students, eating healthy foods can seem like a chore given high-stress environments and tight deadline-driven culture. The objective of this application is to appeal to anyone seeking to meal prep with their available ingredients. By creating a meal prep application, this will not only lower the overhead of meal-prepping intricacies but will save time and preserve our overall health. By providing an ingredient-based hub for meal prepping, with the fulcrum being convenience, we seek to gain traction by appealing to a user-base that favors simplicity and benefits from user-friendly healthy recipes.
 
 ## Repo Structure
+- `assets/`: contains crawler architecture, sample output and performance metrics
+
 - `crawlers/`: contains all python crawlers separated by source
 
 - `data/`: contains scraped data from each traversed source
